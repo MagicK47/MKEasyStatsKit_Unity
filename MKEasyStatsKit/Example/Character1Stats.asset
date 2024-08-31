@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8e6eb4a599d4b34b3888871b7fc0db, type: 3}
+  m_Name: Character1Stats
+  m_EditorClassIdentifier: 
+  GroupName: "\u57FA\u7840\u89D2\u82721"
+  GroupDesDescription: 
+  AllStats:
+  - mKStatsInfo: {fileID: 11400000, guid: 908b05005ae68457a87981cdf7154cc3, type: 2}
+    InitDMinValue: 0
+    InitDValue: 10
+    InitDMaxValue: 10
+    onBaseMinValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    onBaseValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    onBaseMaxValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    onMinValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    onValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+    onMaxValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+  ParentGroup: {fileID: 11400000, guid: 7d37f5faf40c745188a5bb3b786c92e3, type: 2}
