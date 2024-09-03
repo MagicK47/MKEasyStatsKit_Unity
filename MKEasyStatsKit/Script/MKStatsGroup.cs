@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "NewStatsGroup", menuName = "MKGame/StatsGroup")]
+[CreateAssetMenu(fileName = "NewStatsGroup", menuName = "MKGame/MKStatsKit/StatsGroup")]
 public class MKStatsGroup : ScriptableObject
 {
     public string GroupName;
